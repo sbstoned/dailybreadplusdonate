@@ -24,7 +24,7 @@ a{color:inherit}
 .nav-links a:hover{color:var(--text)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 20px;border-radius:14px;text-decoration:none;font-weight:800;border:1px solid transparent;transition:.2s transform,.2s background,.2s border-color}
 .btn:hover{transform:translateY(-2px)}
-.btn-primary{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#1a1408;box-shadow:0 12px 30px rgba(215,179,106,.2)}
+.btn-primary{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#2c230f;box-shadow:0 12px 30px rgba(215,179,106,.2)}
 .btn-secondary{background:rgba(255,255,255,.04);border-color:var(--line);color:var(--text)}
 .hero{padding:92px 0 74px;position:relative;overflow:hidden}
 .hero:before{content:"";position:absolute;inset:-30% auto auto 50%;transform:translateX(-50%);width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(215,179,106,.15),transparent 65%);pointer-events:none}
@@ -93,4 +93,12 @@ h1{font-size:clamp(2.6rem,6vw,5.6rem);line-height:1.02;margin:18px 0 22px;letter
     height: 50px;
     flex-basis: 50px;
   }
+}
+
+/* Keep the top-right navigation Donate button text dark. */
+.nav-links a.btn.btn-primary,
+.nav-links a.btn.btn-primary:hover,
+.nav-links a.btn.btn-primary:focus,
+.nav-links a.btn.btn-primary:visited {
+  color: #1a1408;
 }
