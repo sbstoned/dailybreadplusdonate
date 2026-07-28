@@ -1,8 +1,13 @@
-# DailyBread+ Mission Website
+# DailyBread+ Website
 
 Upload every file in this folder to the root of the `dailybreadplusdonate` GitHub repository.
 
-GitHub Pages URL:
+Keep your existing logo at:
+
+assets/images/dailybread_logo.png
+
+Website:
 https://sbstoned.github.io/dailybreadplusdonate/
 
-Stripe links are already wired into `index.html`.
+Privacy Policy URL:
+https://sbstoned.github.io/dailybreadplusdonate/privacy.html
